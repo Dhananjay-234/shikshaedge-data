@@ -1,0 +1,317 @@
+[
+    {
+    "instruction": "What is an Arithmetic Progression? Give two examples from daily life.",
+    "input": "",
+    "response": "An Arithmetic Progression (AP) is a list of numbers in which each term is obtained by adding a fixed number to the preceding term. This fixed number is called the common difference (d). Daily life examples: (1) Reena's salary starting at ₹8000 with ₹500 annual increment: 8000, 8500, 9000, 9500... (2) Shakila putting ₹100 in her daughter's money box and increasing by ₹50 every year: 100, 150, 200, 250... In both cases, consecutive terms differ by a fixed amount."
+    },
+    {
+    "instruction": "What is the discriminant of a quadratic equation and what does it tell us?",
+    "input": "",
+    "response": "For a quadratic equation ax² + bx + c = 0, the discriminant is b² – 4ac. It tells us the nature of roots: (1) If b² – 4ac > 0: two distinct real roots exist. (2) If b² – 4ac = 0: two equal real roots exist. (3) If b² – 4ac < 0: no real roots exist. Example: for 2x² – 4x + 3 = 0, discriminant = (–4)² – 4(2)(3) = 16 – 24 = –8 < 0, so no real roots exist."
+    },
+    {
+    "instruction": "What are consistent and inconsistent pairs of linear equations?",
+    "input": "",
+    "response": "A pair of linear equations that has at least one solution is called a consistent pair. If it has a unique solution, the lines intersect at one point. If it has infinitely many solutions, the lines are coincident — this is called a dependent consistent pair. A pair of linear equations that has no solution is called an inconsistent pair — the lines representing them are parallel and never meet. Example: x + 2y – 4 = 0 and 2x + 4y – 12 = 0 are inconsistent because their lines are parallel."
+    },
+    {
+    "instruction": "Find the roots of 2x² – 5x + 3 = 0 by factorisation.",
+    "input": "",
+    "response": "Split the middle term –5x as –2x – 3x (since –2x × –3x = 6x² = 2x² × 3). So: 2x² – 5x + 3 = 2x² – 2x – 3x + 3 = 2x(x – 1) – 3(x – 1) = (2x – 3)(x – 1). Setting each factor to zero: 2x – 3 = 0 gives x = 3/2, and x – 1 = 0 gives x = 1. Therefore the roots are x = 1 and x = 3/2. Verify: 2(1)² – 5(1) + 3 = 0 ✓ and 2(9/4) – 5(3/2) + 3 = 0 ✓."
+    },
+    {
+    "instruction": "How do you determine if three lines are intersecting, parallel, or coincident using the ratio method?",
+    "input": "",
+    "response": "For equations a₁x + b₁y + c₁ = 0 and a₂x + b₂y + c₂ = 0, compare the ratios a₁/a₂, b₁/b₂, and c₁/c₂: (1) If a₁/a₂ ≠ b₁/b₂: lines intersect → unique solution. (2) If a₁/a₂ = b₁/b₂ = c₁/c₂: lines coincide → infinitely many solutions. (3) If a₁/a₂ = b₁/b₂ ≠ c₁/c₂: lines are parallel → no solution. This method lets you determine the nature of solutions without drawing graphs."
+    },
+    {
+    "instruction": "What is the nth term formula for an AP? Use it to find the 25th term when a = 8000 and d = 500.",
+    "input": "",
+    "response": "The nth term of an AP is given by: aₙ = a + (n – 1)d, where a is the first term and d is the common difference. For Reena's salary with a = 8000 and d = 500: 25th term = 8000 + (25 – 1) × 500 = 8000 + 24 × 500 = 8000 + 12000 = ₹20000. So her monthly salary in the 25th year would be ₹20,000. This formula works for any term without needing to calculate all previous terms."
+    },
+    {
+    "instruction": "Solve 7x – 15y = 2 and x + 2y = 3 using the substitution method.",
+    "input": "",
+    "response": "Step 1: From equation 2, express x = 3 – 2y. Step 2: Substitute in equation 1: 7(3 – 2y) – 15y = 2 → 21 – 14y – 15y = 2 → –29y = –19 → y = 19/29. Step 3: Substitute y back: x = 3 – 2(19/29) = 3 – 38/29 = (87 – 38)/29 = 49/29. Solution: x = 49/29, y = 19/29. Verify in equation 1: 7(49/29) – 15(19/29) = (343 – 285)/29 = 58/29 = 2 ✓."
+    },
+    {
+    "instruction": "Akhila spent ₹20 on rides (₹3 each) and Hoopla games (₹4 each). She played Hoopla half as many times as her rides. Find how many rides she had.",
+    "input": "",
+    "response": "Let x = number of rides, y = number of Hoopla games. From the problem: y = x/2 … (1) and 3x + 4y = 20 … (2). Substituting (1) into (2): 3x + 4(x/2) = 20 → 3x + 2x = 20 → 5x = 20 → x = 4. Then y = 4/2 = 2. So Akhila had 4 rides and played Hoopla 2 times. Verify: 3(4) + 4(2) = 12 + 8 = 20 ✓."
+    },
+    {
+    "instruction": "Check whether –1, –3, –5, –7 form an AP. If yes, find the common difference and next two terms.",
+    "input": "",
+    "response": "Check differences: a₂ – a₁ = –3 – (–1) = –2; a₃ – a₂ = –5 – (–3) = –2; a₄ – a₃ = –7 – (–5) = –2. Since the difference is constant at –2, yes, this is an AP with first term a = –1 and common difference d = –2. Next two terms: 5th term = –7 + (–2) = –9; 6th term = –9 + (–2) = –11. The AP continues: –1, –3, –5, –7, –9, –11..."
+    },
+    {
+    "instruction": "What is the standard form of a quadratic equation? Give three examples.",
+    "input": "",
+    "response": "The standard form of a quadratic equation is ax² + bx + c = 0, where a, b, c are real numbers and a ≠ 0. Examples: (1) 2x² + x – 300 = 0 (from a hall area problem). (2) x² – 45x + 324 = 0 (from a marbles problem). (3) 2x² – 3x + 1 = 0. Note: the equation must have degree exactly 2. Expressions like x(x+1) + 8 = (x+2)(x–2) may look quadratic but simplify to linear equations — always expand and simplify first."
+    },
+    {
+    "instruction": "Two rails are represented by x + 2y – 4 = 0 and 2x + 4y – 12 = 0. Will they cross?",
+    "input": "",
+    "response": "Compare ratios: a₁/a₂ = 1/2, b₁/b₂ = 2/4 = 1/2, c₁/c₂ = –4/–12 = 1/3. Since a₁/a₂ = b₁/b₂ ≠ c₁/c₂ (1/2 ≠ 1/3), the lines are parallel. To verify using substitution: express x = 4 – 2y from equation 1, substitute in equation 2: 2(4–2y) + 4y – 12 = 0 → 8 – 12 = 0 → –4 = 0, which is false. Therefore the rails will never cross each other."
+    },
+    {
+    "instruction": "Is 4, 10, 16, 22 an AP? Find the 10th term.",
+    "input": "",
+    "response": "Check: 10 – 4 = 6, 16 – 10 = 6, 22 – 16 = 6. The common difference is constant at 6, so yes, it is an AP with a = 4 and d = 6. Using the nth term formula: a₁₀ = a + (10–1)d = 4 + 9 × 6 = 4 + 54 = 58. So the 10th term is 58. Next two terms after 22: 22 + 6 = 28 and 28 + 6 = 34."
+    },
+    {
+    "instruction": "समांतर श्रेणी (AP) किसे कहते हैं? इसके मुख्य गुण बताइए।",
+    "input": "",
+    "response": "समांतर श्रेणी (AP) संख्याओं की वह सूची है जिसमें प्रत्येक पद, पिछले पद में एक निश्चित संख्या जोड़ने से प्राप्त होता है। इस निश्चित संख्या को सार्व अंतर (d) कहते हैं। मुख्य गुण: (1) d धनात्मक, ऋणात्मक या शून्य हो सकता है। (2) यदि a पहला पद और d सार्व अंतर है, तो AP: a, a+d, a+2d, a+3d... होती है। (3) n वाँ पद: aₙ = a + (n–1)d। उदाहरण: 8000, 8500, 9000... एक AP है जहाँ a = 8000, d = 500।"
+    },
+    {
+    "instruction": "प्रतिस्थापन विधि से रैखिक समीकरण युग्म क्या है? इसके चरण बताइए।",
+    "input": "",
+    "response": "प्रतिस्थापन विधि के चरण: चरण 1 — किसी एक समीकरण से एक चर को दूसरे चर के पदों में व्यक्त करें। चरण 2 — उस मान को दूसरी समीकरण में प्रतिस्थापित करें, जिससे एक चर वाली समीकरण मिले। चरण 3 — उस एक चर वाली समीकरण को हल करें। चरण 4 — प्राप्त मान को वापस चरण 1 की समीकरण में रखकर दूसरे चर का मान निकालें। यदि प्रतिस्थापन के बाद एक सत्य कथन मिले (जैसे 18 = 18) तो अनंत हल होते हैं। यदि असत्य कथन मिले (जैसे –4 = 0) तो कोई हल नहीं।"
+    },
+    {
+    "instruction": "द्विघात समीकरण ax² + bx + c = 0 के मूलों की प्रकृति कैसे ज्ञात करते हैं?",
+    "input": "",
+    "response": "मूलों की प्रकृति विविक्तकर (discriminant) D = b² – 4ac से ज्ञात होती है: (1) यदि D > 0: दो अलग-अलग वास्तविक मूल। (2) यदि D = 0: दो समान वास्तविक मूल (–b/2a)। (3) यदि D < 0: कोई वास्तविक मूल नहीं। उदाहरण: 2x² – 4x + 3 = 0 के लिए D = (–4)² – 4(2)(3) = 16 – 24 = –8 < 0, अतः इसके कोई वास्तविक मूल नहीं हैं।"
+    },
+    {
+    "instruction": "रैखिक समीकरण युग्म को आलेखीय विधि से कब हल करना कठिन होता है?",
+    "input": "",
+    "response": "आलेखीय विधि तब कठिन हो जाती है जब समीकरणों के हल के निर्देशांक अपूर्णांक या दशमलव हों, जैसे (√3, 2/7), (–1.75, 3.3) आदि। ऐसे निर्देशांक ग्राफ पेपर पर सटीक रूप से पढ़ना बहुत कठिन होता है और गलती की संभावना अधिक होती है। इसीलिए बीजगणितीय विधियाँ जैसे प्रतिस्थापन विधि और विलोपन विधि अधिक उपयोगी होती हैं, क्योंकि ये सटीक हल देती हैं।"
+    },
+    {
+    "instruction": "किसी AP का n वाँ पद ज्ञात करने का सूत्र क्या है? रीना की 15वीं साल की तनख्वाह निकालिए जब a = ₹8000 और d = ₹500 हो।",
+    "input": "",
+    "response": "AP का n वाँ पद: aₙ = a + (n–1)d। रीना की 15वीं साल की तनख्वाह: a₁₅ = 8000 + (15–1) × 500 = 8000 + 14 × 500 = 8000 + 7000 = ₹15000। इसी प्रकार 25वीं साल: a₂₅ = 8000 + 24 × 500 = ₹20000। यह सूत्र बहुत उपयोगी है क्योंकि इससे बिना सभी पद लिखे सीधे कोई भी पद ज्ञात किया जा सकता है।"
+    },
+    {
+    "instruction": "गुणनखंड विधि से 6x² – x – 2 = 0 के मूल ज्ञात कीजिए।",
+    "input": "",
+    "response": "मध्य पद –x को 3x और –4x में विभाजित करें (क्योंकि 3x × (–4x) = –12x² = 6x² × (–2)): 6x² – x – 2 = 6x² + 3x – 4x – 2 = 3x(2x + 1) – 2(2x + 1) = (3x – 2)(2x + 1)। मूलों के लिए: 3x – 2 = 0 → x = 2/3 और 2x + 1 = 0 → x = –1/2। अतः मूल हैं x = 2/3 और x = –1/2। जाँच: 6(4/9) – (2/3) – 2 = 8/3 – 2/3 – 2 = 2 – 2 = 0 ✓।"
+    },
+    {
+    "instruction": "रैखिक समीकरणों के युग्म के लिए समांतर, प्रतिच्छेदी और संपाती रेखाओं की शर्तें क्या हैं?",
+    "input": "",
+    "response": "a₁x + b₁y + c₁ = 0 और a₂x + b₂y + c₂ = 0 के लिए: (1) प्रतिच्छेदी रेखाएँ (अद्वितीय हल): a₁/a₂ ≠ b₁/b₂। (2) संपाती रेखाएँ (अनंत हल): a₁/a₂ = b₁/b₂ = c₁/c₂। (3) समांतर रेखाएँ (कोई हल नहीं): a₁/a₂ = b₁/b₂ ≠ c₁/c₂। उदाहरण: 5x – 4y + 8 = 0 और 7x + 6y – 9 = 0 के लिए a₁/a₂ = 5/7 ≠ –4/6 = b₁/b₂, अतः रेखाएँ प्रतिच्छेद करती हैं।"
+    },
+    {
+    "instruction": "John आणि Jivanti यांच्याकडे मिळून 45 मार्बल आहेत. दोघांनी 5-5 मार्बल गमावले आणि उर्वरित मार्बलचा गुणाकार 124 आहे. हे द्विघात समीकरण म्हणून मांडा.",
+    "input": "",
+    "response": "John कडे x मार्बल आहेत, तर Jivanti कडे (45 – x) मार्बल आहेत. 5 गमावल्यानंतर John कडे (x – 5) आणि Jivanti कडे (40 – x) मार्बल राहतात. गुणाकार = (x – 5)(40 – x) = 40x – x² – 200 + 5x = –x² + 45x – 200. दिलेल्या अटीनुसार: –x² + 45x – 200 = 124 → –x² + 45x – 324 = 0 → x² – 45x + 324 = 0. हे आवश्यक द्विघात समीकरण आहे."
+    },
+    {
+    "instruction": "समांतर श्रेणीचे सार्व अंतर कसे काढतात? उदाहरण द्या.",
+    "input": "",
+    "response": "सार्व अंतर d = कोणत्याही पदापासून त्याच्या आधीचा पद वजा केल्यावर मिळतो: d = aₖ₊₁ – aₖ. उदाहरण: 6, 9, 12, 15 या श्रेणीसाठी d = 9 – 6 = 3, 12 – 9 = 3, 15 – 12 = 3. सार्व अंतर 3 आहे. महत्त्वाचे: उत्तरोत्तर पदांमधील फरक समान असेल तरच ती AP असते. –2, 2, –2, 2 ही AP नाही कारण 2–(–2) = 4 पण –2–2 = –4, फरक समान नाही."
+    },
+    {
+    "instruction": "द्विघात समीकरण म्हणजे काय? x(2x + 3) = x² + 1 हे द्विघात समीकरण आहे का?",
+    "input": "",
+    "response": "ax² + bx + c = 0 (a ≠ 0) या स्वरूपाच्या समीकरणाला द्विघात समीकरण म्हणतात. x(2x + 3) = x² + 1 तपासण्यासाठी: डाव्या बाजूचा विस्तार: 2x² + 3x = x² + 1 → 2x² + 3x – x² – 1 = 0 → x² + 3x – 1 = 0. हे ax² + bx + c = 0 या स्वरूपाचे आहे (a = 1, b = 3, c = –1). म्हणून होय, हे द्विघात समीकरण आहे."
+    },
+    {
+    "instruction": "रेखीय समीकरणांचा युग्म संगत किंवा असंगत आहे हे कसे ठरवतात?",
+    "input": "",
+    "response": "a₁/a₂, b₁/b₂ आणि c₁/c₂ या गुणोत्तरांची तुलना करतो: (1) a₁/a₂ ≠ b₁/b₂ असल्यास: एकमेव उकल → संगत. (2) a₁/a₂ = b₁/b₂ = c₁/c₂ असल्यास: अनंत उकली → संगत (अवलंबी). (3) a₁/a₂ = b₁/b₂ ≠ c₁/c₂ असल्यास: उकल नाही → असंगत. उदाहरण: 2x – 3y = 8 आणि 4x – 6y = 9 साठी a₁/a₂ = 1/2, b₁/b₂ = 1/2, c₁/c₂ = 8/9. a₁/a₂ = b₁/b₂ ≠ c₁/c₂, म्हणून असंगत — उकल नाही."
+    },
+    {
+    "instruction": "प्रतिस्थापन पद्धतीने y = x/2 आणि 3x + 4y = 20 सोडवा.",
+    "input": "",
+    "response": "y = x/2 हे समीकरण 1 आहे. ते समीकरण 2 मध्ये प्रतिस्थापित करतो: 3x + 4(x/2) = 20 → 3x + 2x = 20 → 5x = 20 → x = 4. परत समीकरण 1 मध्ये: y = 4/2 = 2. उत्तर: x = 4 (राइड्सची संख्या), y = 2 (Hoopla चे खेळ). तपासणी: 3(4) + 4(2) = 12 + 8 = 20 ✓. अखिलाने 4 राइड्स घेतल्या आणि 2 वेळा Hoopla खेळली."
+    },
+    {
+    "instruction": "What is the substitution method for solving linear equations? Give step-by-step explanation.",
+    "input": "",
+    "response": "The substitution method involves three steps: Step 1 — Choose either equation and express one variable in terms of the other. For example, from x + 2y = 3, write x = 3 – 2y. Step 2 — Substitute this expression into the other equation to get one equation with one variable, then solve it. Step 3 — Substitute the found value back into the expression from Step 1 to find the second variable. If substitution gives a true statement like 18 = 18, there are infinitely many solutions. If it gives a false statement like –4 = 0, there is no solution."
+    },
+    {
+    "instruction": "Champa bought pants and skirts. Skirts = 2×pants – 2, also skirts = 4×pants – 4. How many did she buy?",
+    "input": "",
+    "response": "Let x = number of pants, y = number of skirts. Equations: y = 2x – 2 ... (1) and y = 4x – 4 ... (2). Substituting (1) into (2): 2x – 2 = 4x – 4 → –2x = –2 → x = 1. Then y = 2(1) – 2 = 0. So Champa bought 1 pant and 0 skirts. Verify in equation 2: y = 4(1) – 4 = 0 ✓. This makes practical sense — she bought exactly 1 pant and no skirts at all."
+    },
+    {
+    "instruction": "Aftab tells his daughter: 7 years ago I was 7 times your age. In 3 years I will be 3 times your age. Find their current ages.",
+    "input": "",
+    "response": "Let s = Aftab's age and t = daughter's age now. Seven years ago: s – 7 = 7(t – 7) → s – 7t + 42 = 0 ... (1). Three years from now: s + 3 = 3(t + 3) → s – 3t = 6 ... (2). From (2): s = 3t + 6. Substituting in (1): (3t + 6) – 7t + 42 = 0 → –4t + 48 = 0 → t = 12. Then s = 3(12) + 6 = 42. Aftab is 42 years old and his daughter is 12 years old."
+    },
+    {
+    "instruction": "A prayer hall has carpet area 300 m² with length = 2×breadth + 1. Set up and solve the quadratic equation.",
+    "input": "",
+    "response": "Let breadth = x metres. Then length = (2x + 1) metres. Area = length × breadth: x(2x + 1) = 300 → 2x² + x – 300 = 0. Factorising: 2x² – 24x + 25x – 300 = 0 → 2x(x – 12) + 25(x – 12) = 0 → (x – 12)(2x + 25) = 0. So x = 12 or x = –12.5. Since breadth cannot be negative, x = 12 m. Length = 2(12) + 1 = 25 m. The hall is 25 m × 12 m."
+    },
+    {
+    "instruction": "What is the general form of an AP and what is meant by finite and infinite AP?",
+    "input": "",
+    "response": "The general form of an AP is: a, a+d, a+2d, a+3d, ... where a is the first term and d is the common difference. A finite AP has a limited number of terms and has a last term. Example: heights of students 147, 148, 149, ..., 157 cm — this ends at 157. An infinite AP continues endlessly and has no last term. Example: 1, 2, 3, 4, ... or 100, 70, 40, 10, ... (continues to negative numbers). To define any AP, you need exactly two pieces of information: the first term a and the common difference d."
+    },
+    {
+    "instruction": "A cottage industry makes x toys per day. Each toy costs ₹(55 – x) to produce. Total cost is ₹750. Find the quadratic equation.",
+    "input": "",
+    "response": "Number of toys produced = x. Cost per toy = ₹(55 – x). Total cost = x × (55 – x) = 55x – x². Given that total cost = 750: 55x – x² = 750 → –x² + 55x – 750 = 0 → x² – 55x + 750 = 0. This is the required quadratic equation. To solve: split middle term as –30x – 25x (since –30 × –25 = 750 and –30 + –25 = –55): (x – 30)(x – 25) = 0, giving x = 25 or x = 30 toys per day."
+    },
+    {
+    "instruction": "Check whether (x – 2)² + 1 = 2x – 3 is a quadratic equation.",
+    "input": "",
+    "response": "Expand the LHS: (x – 2)² + 1 = x² – 4x + 4 + 1 = x² – 4x + 5. So the equation becomes: x² – 4x + 5 = 2x – 3 → x² – 4x – 2x + 5 + 3 = 0 → x² – 6x + 8 = 0. This is of the form ax² + bx + c = 0 with a = 1, b = –6, c = 8, and a ≠ 0. Therefore, yes, (x – 2)² + 1 = 2x – 3 is a quadratic equation. Its roots can be found by factorising: (x – 4)(x – 2) = 0, giving x = 4 or x = 2."
+    },
+    {
+    "instruction": "रेखीय समीकरणांच्या युग्माचे आलेखीय निरूपण करताना कोणत्या तीन परिस्थिती येऊ शकतात?",
+    "input": "",
+    "response": "दोन चलांतील रेखीय समीकरणांच्या युग्माचे आलेखीय निरूपण करताना तीन परिस्थिती येतात: (1) रेषा एकमेकांना एका बिंदूत छेदतात → एकमेव उकल (संगत युग्म). (2) रेषा समांतर असतात → उकल नाही (असंगत युग्म). (3) रेषा एकमेकांवर संपतात (एकच रेषा) → अनंत उकली (अवलंबी संगत युग्म). उदाहरण: x + 3y = 6 आणि 2x – 3y = 12 या रेषा B(6,0) बिंदूत छेदतात, म्हणून x = 6, y = 0 ही एकमेव उकल आहे."
+    },
+    {
+    "instruction": "गुणनखंड पद्धतीने 2x² – 5x + 3 = 0 चे मूळ काढा.",
+    "input": "",
+    "response": "मधला पद –5x हा –2x आणि –3x मध्ये विभाजित करतो (कारण (–2x)(–3x) = 6x² = 2x² × 3): 2x² – 5x + 3 = 2x² – 2x – 3x + 3 = 2x(x – 1) – 3(x – 1) = (2x – 3)(x – 1). मुळांसाठी: 2x – 3 = 0 → x = 3/2 आणि x – 1 = 0 → x = 1. म्हणून मूळे x = 1 आणि x = 3/2 आहेत. तपासणी: 2(1)² – 5(1) + 3 = 2 – 5 + 3 = 0 ✓."
+    },
+    {
+    "instruction": "What does it mean when substitution in linear equations gives 18 = 18 or –4 = 0?",
+    "input": "",
+    "response": "When substitution gives a true statement like 18 = 18: this means the two equations represent the same line (coincident lines). Every point on that line is a solution, so there are infinitely many solutions. Example: 2 pencils + 3 erasers = ₹9 and 4 pencils + 6 erasers = ₹18 are actually the same equation — you cannot find unique prices. When substitution gives a false statement like –4 = 0: this means the lines are parallel and never intersect. There is no solution. Example: two parallel rails represented by x + 2y – 4 = 0 and 2x + 4y – 12 = 0."
+    },
+    {
+    "instruction": "AP मध्ये सार्व अंतर ऋण असू शकते का? उदाहरण द्या.",
+    "input": "",
+    "response": "होय, AP मधील सार्व अंतर ऋण असू शकते. जेव्हा d < 0 असते, तेव्हा प्रत्येक पद मागील पदापेक्षा लहान असते — म्हणजे श्रेणी कमी होत जाते. उदाहरण: 100, 70, 40, 10, ... या AP मध्ये d = 70 – 100 = –30. दुसरे उदाहरण: –1.0, –1.5, –2.0, –2.5 या AP मध्ये d = –0.5. व्यावहारिक उदाहरण: शिडीच्या पायऱ्यांची लांबी 45, 43, 41, 39... सेमी, येथे d = –2 सेमी."
+    },
+    {
+    "instruction": "समांतर श्रेणी (AP) क्या है? दैनिक जीवन के तीन उदाहरण दीजिए।",
+    "input": "",
+    "response": "समांतर श्रेणी (AP) वह सूची है जिसमें प्रत्येक पद को पूर्ववर्ती पद में एक निश्चित संख्या (सार्व अंतर d) जोड़कर प्राप्त किया जाता है। दैनिक जीवन के उदाहरण: (1) रीना का वेतन: ₹8000, ₹8500, ₹9000... (d = 500)। (2) शकीला की बेटी के गुल्लक में पैसे: ₹100, ₹150, ₹200... (d = 50)। (3) एक कुएँ की खुदाई की लागत: ₹150, ₹200, ₹250... (d = 50)। तीनों में successive terms का अंतर स्थिर है।"
+    },
+    {
+    "instruction": "द्विघात बहुपद के शून्यक और द्विघात समीकरण के मूल में क्या अंतर है?",
+    "input": "",
+    "response": "वास्तव में दोनों एक ही हैं। द्विघात बहुपद ax² + bx + c के शून्यक वे मान हैं जहाँ बहुपद का मान शून्य होता है। द्विघात समीकरण ax² + bx + c = 0 के मूल वे मान हैं जो समीकरण को संतुष्ट करते हैं। जैसे p(x) = 2x² – 5x + 3 के शून्यक 1 और 3/2 हैं, और समीकरण 2x² – 5x + 3 = 0 के मूल भी 1 और 3/2 हैं। इसीलिए किसी भी द्विघात समीकरण के अधिकतम दो मूल होते हैं।"
+    },
+    {
+    "instruction": "Reena gets ₹8000 starting salary with ₹500 annual increment. What is her salary in the 15th year? Use the AP formula.",
+    "input": "",
+    "response": "This is an AP with first term a = 8000 and common difference d = 500. The nth term formula is aₙ = a + (n–1)d. For the 15th year: a₁₅ = 8000 + (15 – 1) × 500 = 8000 + 14 × 500 = 8000 + 7000 = ₹15,000. For the 25th year: a₂₅ = 8000 + 24 × 500 = ₹20,000. This is far more efficient than adding ₹500 fourteen times. The formula lets you jump directly to any year's salary."
+    },
+    {
+    "instruction": "How do you check graphically if a pair of linear equations is consistent?",
+    "input": "",
+    "response": "To check graphically: Step 1 — For each equation, find at least two solution points by substituting values of x and calculating y. Step 2 — Plot both sets of points and draw the two lines. Step 3 — Observe the lines: if they intersect at one point, the pair is consistent with a unique solution (read off the coordinates). If the lines are coincident, infinitely many solutions exist. If parallel, inconsistent — no solution. Example: x + 3y = 6 and 2x – 3y = 12 intersect at B(6, 0), so consistent with solution x = 6, y = 0."
+    },
+    {
+    "instruction": "5 पेन्सिल आणि 7 पेन मिळून ₹50 आणि 7 पेन्सिल आणि 5 पेन मिळून ₹46 खर्च होतात. रेखीय समीकरणांचे युग्म तयार करा.",
+    "input": "",
+    "response": "माना पेन्सिलची किंमत ₹x आणि पेनची किंमत ₹y आहे. पहिल्या अटीनुसार: 5x + 7y = 50 ... (1). दुसऱ्या अटीनुसार: 7x + 5y = 46 ... (2). a₁/a₂ = 5/7, b₁/b₂ = 7/5. 5/7 ≠ 7/5, म्हणून या रेषा एकमेकांना छेदतात आणि एकमेव उकल आहे. समीकरण (1) × 5 – समीकरण (2) × 7: 25x + 35y – 49x – 35y = 250 – 322 → –24x = –72 → x = 3 (पेन्सिल ₹3). y = (50 – 15)/7 = 5 (पेन ₹5)."
+    },
+    {
+    "instruction": "Which of these are APs: (i) 1,1,2,3,5,8 (ii) 3,3,3,3 (iii) 2,4,8,16?",
+    "input": "",
+    "response": "(i) 1, 1, 2, 3, 5, 8 — differences: 0, 1, 1, 2, 3 — NOT constant. This is NOT an AP (it is the Fibonacci sequence). (ii) 3, 3, 3, 3 — differences: 0, 0, 0 — constant. This IS an AP with a = 3 and d = 0. Every term equals the first term. (iii) 2, 4, 8, 16 — differences: 2, 4, 8 — NOT constant. This is NOT an AP (it is a geometric progression where each term is multiplied by 2). Only (ii) is an AP."
+    },
+    {
+    "instruction": "द्विघात समीकरण x² – 45x + 324 = 0 की उत्पत्ति John और Jivanti की संगमरमर की समस्या से कैसे हुई?",
+    "input": "",
+    "response": "John के पास x और Jivanti के पास (45–x) कंचे हैं (कुल = 45)। दोनों ने 5–5 कंचे खोए। अब John के पास (x–5) और Jivanti के पास (40–x) कंचे हैं। गुणनफल = (x–5)(40–x) = –x² + 45x – 200। दिया है गुणनफल = 124: –x² + 45x – 200 = 124 → –x² + 45x – 324 = 0 → x² – 45x + 324 = 0। गुणनखंड: (x–9)(x–36) = 0 → x = 9 या x = 36। अतः John के पास 9 या 36 कंचे थे।"
+    },
+    {
+    "instruction": "What is common difference d in an AP, and can it be zero or negative? Give examples.",
+    "input": "",
+    "response": "The common difference d is the fixed number added to each term to get the next term: d = aₖ₊₁ – aₖ. Yes, d can be zero or negative. When d = 0: all terms are equal, e.g., 3, 3, 3, 3, ... (a = 3, d = 0). When d is negative: the sequence decreases, e.g., 100, 70, 40, 10, ... (d = –30), or the rungs of a ladder decreasing from 45, 43, 41, ... cm (d = –2). When d is positive: the sequence increases, like Reena's salary 8000, 8500, 9000, ... (d = 500)."
+    },
+    {
+    "instruction": "आलेखीय पद्धतीत रेषांची स्थिती आणि उकलींचे प्रकार यांचा संबंध स्पष्ट करा.",
+    "input": "",
+    "response": "दोन रेखीय समीकरणांच्या आलेखीय निरूपणात तीन शक्यता आहेत: (1) छेदणाऱ्या रेषा: एकमेव उकल. छेदनबिंदूचे निर्देशांक हीच उकल. a₁/a₂ ≠ b₁/b₂. (2) समांतर रेषा: उकल नाही (असंगत). a₁/a₂ = b₁/b₂ ≠ c₁/c₂. (3) संपाती रेषा: अनंत उकली. a₁/a₂ = b₁/b₂ = c₁/c₂. आलेखीय पद्धत अपूर्णांक उकलींसाठी (उदा. √3, 2/7) कठीण असते — त्यासाठी बीजगणितीय पद्धती अधिक अचूक असतात."
+    },
+    {
+    "instruction": "गुणनखंड विधि से x² – 3x – 10 = 0 के मूल ज्ञात कीजिए।",
+    "input": "",
+    "response": "मध्य पद –3x को +2x और –5x में विभाजित करते हैं (क्योंकि 2 × (–5) = –10 और 2 + (–5) = –3): x² – 3x – 10 = x² + 2x – 5x – 10 = x(x + 2) – 5(x + 2) = (x – 5)(x + 2)। मूलों के लिए: x – 5 = 0 → x = 5 और x + 2 = 0 → x = –2। जाँच: (5)² – 3(5) – 10 = 25 – 15 – 10 = 0 ✓ और (–2)² – 3(–2) – 10 = 4 + 6 – 10 = 0 ✓।"
+    },
+    {
+    "instruction": "Brahmagupta आणि Sridharacharya यांनी द्विघात समीकरणाच्या इतिहासात काय योगदान दिले?",
+    "input": "",
+    "response": "भारतीय गणितज्ञांनी द्विघात समीकरणांच्या विकासात महत्त्वाची भूमिका बजावली. ब्रह्मगुप्त (इ.स. 598–665) यांनी ax² + bx = c या स्वरूपाच्या द्विघात समीकरणाचे स्पष्ट सूत्र दिले. श्रीधराचार्य (इ.स. 1025) यांनी 'वर्गपूर्ण' पद्धतीने द्विघात सूत्र विकसित केले जे भास्कर II यांनी उद्धृत केले. ग्रीक गणितज्ञ युक्लिडने भूमितीय पद्धतीने उकली शोधल्या तर बॅबिलोनी लोकांनी प्रथम असे प्रश्न सोडवले."
+    },
+    {
+    "instruction": "If a = –7 and d = –2, write the first five terms of the AP.",
+    "input": "",
+    "response": "Using the general form a, a+d, a+2d, a+3d, a+4d with a = –7 and d = –2: Term 1: –7. Term 2: –7 + (–2) = –9. Term 3: –7 + 2(–2) = –11. Term 4: –7 + 3(–2) = –13. Term 5: –7 + 4(–2) = –15. The AP is: –7, –9, –11, –13, –15, ... Verify using nth term formula: a₅ = –7 + (5–1)(–2) = –7 – 8 = –15 ✓. This is a decreasing AP with negative common difference."
+    },
+    {
+    "instruction": "AP में a = 0 और d = 1/2 हो तो पहले 5 पद लिखिए। क्या यह अनंत AP है?",
+    "input": "",
+    "response": "a = 0 और d = 1/2 से AP के पहले 5 पद: पद 1 = 0, पद 2 = 0 + 1/2 = 1/2, पद 3 = 0 + 2(1/2) = 1, पद 4 = 0 + 3(1/2) = 3/2, पद 5 = 0 + 4(1/2) = 2। AP: 0, 1/2, 1, 3/2, 2, ... हाँ, यह अनंत AP है क्योंकि इसका कोई अंतिम पद नहीं है — यह असीमित रूप से आगे बढ़ती रहती है। यदि AP का एक निश्चित अंतिम पद हो तो उसे परिमित AP कहते हैं।"
+    },
+    {
+    "instruction": "5 पेन्सिल और 7 पेन की कीमत ₹50 तथा 7 पेन्सिल और 5 पेन की कीमत ₹46 है। प्रत्येक की कीमत ज्ञात कीजिए।",
+    "input": "",
+    "response": "माना पेन्सिल = ₹x, पेन = ₹y। समीकरण: 5x + 7y = 50 ...(1) और 7x + 5y = 46 ...(2)। (1) को 5 से और (2) को 7 से गुणा करें: 25x + 35y = 250 और 49x + 35y = 322। घटाने पर: 24x = 72 → x = 3। (1) में रखें: 15 + 7y = 50 → 7y = 35 → y = 5। अतः एक पेन्सिल की कीमत ₹3 और एक पेन की कीमत ₹5 है। जाँच: 5(3) + 7(5) = 15 + 35 = 50 ✓।"
+    },
+    {
+    "instruction": "Find the discriminant of 2x² – 4x + 3 = 0 and state the nature of its roots.",
+    "input": "",
+    "response": "For 2x² – 4x + 3 = 0, we have a = 2, b = –4, c = 3. Discriminant = b² – 4ac = (–4)² – 4(2)(3) = 16 – 24 = –8. Since the discriminant = –8 < 0, the equation has no real roots. This means if you draw the graph of y = 2x² – 4x + 3, the parabola never crosses or touches the x-axis — it lies entirely above it (since a = 2 > 0, it opens upward). The equation has two complex (imaginary) roots, but no real solutions."
+    },
+    {
+    "instruction": "Check if –1.2, –3.2, –5.2, –7.2 forms an AP. If yes, find the next two terms.",
+    "input": "",
+    "response": "Check differences: –3.2 – (–1.2) = –2.0; –5.2 – (–3.2) = –2.0; –7.2 – (–5.2) = –2.0. The common difference is constant at –2.0, so yes, this is an AP with a = –1.2 and d = –2.0. Next two terms: 5th term = –7.2 + (–2.0) = –9.2; 6th term = –9.2 + (–2.0) = –11.2. So the AP continues: –1.2, –3.2, –5.2, –7.2, –9.2, –11.2, ..."
+    },
+    {
+    "instruction": "x(x+1) + 8 = (x+2)(x-2) द्विघात समीकरण आहे का? स्पष्ट करा.",
+    "input": "",
+    "response": "डावी बाजू = x(x+1) + 8 = x² + x + 8. उजवी बाजू = (x+2)(x–2) = x² – 4. समीकरण: x² + x + 8 = x² – 4 → x + 8 = –4 → x + 12 = 0. हे ax² + bx + c = 0 या स्वरूपाचे नाही कारण x² चे पद नाहीसे झाले. हे एक रेखीय समीकरण आहे (x² नाही). म्हणून हे द्विघात समीकरण नाही. धडा: जरी समीकरण द्विघात वाटले तरी विस्तार करून तपासा — x² चे पद शिल्लक राहतेच असे नाही."
+    },
+    {
+    "instruction": "समांतर श्रेणी में a = 1.0 और d = 0.1 हो तो 10वाँ पद ज्ञात कीजिए।",
+    "input": "",
+    "response": "AP का n वाँ पद सूत्र: aₙ = a + (n–1)d। यहाँ a = 1.0, d = 0.1 और n = 10: a₁₀ = 1.0 + (10–1) × 0.1 = 1.0 + 9 × 0.1 = 1.0 + 0.9 = 1.9। अतः 10वाँ पद 1.9 है। AP के प्रथम 5 पद: 1.0, 1.1, 1.2, 1.3, 1.4, ... इस AP में d = 0.1 > 0 है इसलिए यह एक बढ़ती हुई AP है।"
+    },
+    {
+    "instruction": "Two consecutive positive integers have product 306. Set up and solve the quadratic equation.",
+    "input": "",
+    "response": "Let the two consecutive positive integers be x and x + 1. Their product: x(x + 1) = 306 → x² + x – 306 = 0. Factorise: find two numbers with product –306 and sum +1. These are +18 and –17 (18 × –17 = –306, 18 + (–17) = 1). So: x² + 18x – 17x – 306 = 0 → x(x + 18) – 17(x + 18) = 0 → (x – 17)(x + 18) = 0. Thus x = 17 or x = –18. Since integers must be positive, x = 17. The two integers are 17 and 18. Check: 17 × 18 = 306 ✓."
+    },
+    {
+    "instruction": "AP साठी n व्या पदाचा फॉर्म्युला काढा आणि त्याचे महत्त्व सांगा.",
+    "input": "",
+    "response": "AP: a, a+d, a+2d, a+3d, ... या pattern कडून: 1st पद = a = a + (1–1)d. 2nd पद = a+d = a + (2–1)d. 3rd पद = a+2d = a + (3–1)d. n वे पद: aₙ = a + (n–1)d. महत्त्व: हा फॉर्म्युला n कितीही मोठे असले तरी थेट त्या पदाचे मूल्य देतो. उदाहरण: Reena च्या वेतनात a = 8000, d = 500 साठी 25 व्या वर्षाचे वेतन = 8000 + 24×500 = ₹20,000 — एकाच गणनेत उत्तर मिळते."
+    },
+    {
+    "instruction": "रोहन की माँ उससे 26 साल बड़ी हैं। 3 साल बाद दोनों की उम्र का गुणनफल 360 होगा। रोहन की वर्तमान उम्र ज्ञात कीजिए।",
+    "input": "",
+    "response": "माना रोहन की वर्तमान उम्र x वर्ष है। माँ की उम्र = x + 26 वर्ष। 3 साल बाद: रोहन = x + 3, माँ = x + 29। गुणनफल: (x + 3)(x + 29) = 360 → x² + 32x + 87 = 360 → x² + 32x – 273 = 0। गुणनखंड: (x + 39)(x – 7) = 0 → x = 7 या x = –39। उम्र ऋणात्मक नहीं हो सकती, इसलिए x = 7। रोहन की वर्तमान उम्र 7 वर्ष है। जाँच: (10)(36) = 360 ✓।"
+    },
+    {
+    "instruction": "What is the difference between a finite and infinite AP? Give one real-life example of each.",
+    "input": "",
+    "response": "A finite AP has a fixed number of terms and has a last term. Real-life example: the lengths of rungs of a ladder — 45, 43, 41, 39, 37, 35, 33, 31 cm. This AP ends at 31 cm (the top rung). An infinite AP has no last term and continues endlessly. Real-life example: a taxi fare starting at ₹15 for the first km and ₹8 for each additional km — 15, 23, 31, 39, ... This theoretically continues for any distance. In practice, most physical APs are finite, but mathematical APs like 1, 2, 3, 4, ... are infinite."
+    },
+    {
+    "instruction": "How does the graphical method help find solutions of linear equations? What is its main limitation?",
+    "input": "",
+    "response": "The graphical method works by drawing both equations as lines on a graph. The point where the lines intersect gives the solution. For example, x + 3y = 6 and 2x – 3y = 12 intersect at B(6, 0), giving solution x = 6, y = 0. Main limitation: when solutions have non-integer coordinates like (√3, 2/7) or (–1.75, 3.3), it is very difficult to read exact values from the graph and errors are likely. For such cases, algebraic methods like substitution or elimination are more reliable and accurate."
+    },
+    {
+    "instruction": "द्विघात सूत्र (quadratic formula) का नाम किसके साथ जुड़ा है और इसका ऐतिहासिक महत्व क्या है?",
+    "input": "",
+    "response": "द्विघात सूत्र x = (–b ± √(b²–4ac)) / 2a का विकास एक लंबे इतिहास का परिणाम है। बेबीलोनियन सभ्यता ने सबसे पहले द्विघात समीकरण हल किए। ग्रीक गणितज्ञ युक्लिड ने ज्यामितीय विधि से हल किए। भारतीय गणितज्ञ ब्रह्मगुप्त (598–665 CE) ने ax² + bx = c का सूत्र दिया। श्रीधराचार्य (1025 CE) ने वर्गपूर्ण विधि से पूर्ण सूत्र निकाला जिसे भास्कर द्वितीय ने उद्धृत किया। इसे अरब गणितज्ञ अल-ख्वारिज्मी ने यूरोप में प्रसारित किया।"
+    },
+    {
+    "instruction": "6n कधीही 0 ने समाप्त होऊ शकते का? कारण सांगा.",
+    "input": "",
+    "response": "नाही, 6ⁿ कधीही 0 ने समाप्त होत नाही — ते नेहमी 6 ने समाप्त होते. परंतु 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ. एखादी संख्या 0 ने समाप्त होण्यासाठी तिच्यात 2 आणि 5 दोन्ही अविभाज्य गुणक असणे आवश्यक आहे. 6ⁿ मध्ये फक्त 2 आणि 3 हे अविभाज्य गुणक आहेत — 5 कधीच नाही. अंकगणिताच्या मूलभूत प्रमेयानुसार, 5 कधीच 6ⁿ च्या गुणनखंडात येणार नाही. म्हणून 6ⁿ कधीच 0 ने संपत नाही."
+    },
+    {
+    "instruction": "Find two numbers whose sum is 27 and product is 182.",
+    "input": "",
+    "response": "Let the two numbers be x and (27 – x). Their product: x(27 – x) = 182 → 27x – x² = 182 → x² – 27x + 182 = 0. Factorise: find two numbers with product 182 and sum –27. These are –13 and –14 (–13 × –14 = 182, –13 + –14 = –27). So: (x – 13)(x – 14) = 0 → x = 13 or x = 14. If x = 13, the other number = 27 – 13 = 14. The two numbers are 13 and 14. Check: 13 + 14 = 27 ✓ and 13 × 14 = 182 ✓."
+    },
+    {
+    "instruction": "How do you identify whether a list of numbers is an AP or not?",
+    "input": "",
+    "response": "To check if a list is an AP, calculate the difference between every consecutive pair of terms. If all differences are equal, it is an AP. If even one difference is different, it is not an AP. Examples: 4, 10, 16, 22 — differences 6, 6, 6 → AP with d = 6 ✓. 1, 1, 2, 3, 5 — differences 0, 1, 1, 2 → NOT an AP (Fibonacci). –2, 2, –2, 2 — differences 4, –4, 4 → NOT an AP. Important: you only need to check consecutive pairs — if all are equal, the list is an AP."
+    },
+    {
+    "instruction": "द्विघात समीकरण x² – 55x + 750 = 0 किस वास्तविक जीवन की समस्या से आया? हल कीजिए।",
+    "input": "",
+    "response": "यह समीकरण एक कुटीर उद्योग की समस्या से आया: एक दिन में x खिलौने बनते हैं, प्रत्येक की लागत ₹(55–x) और कुल लागत ₹750। x² – 55x + 750 = 0 को हल करें। मध्य पद –55x = –30x – 25x (क्योंकि –30 × –25 = 750): x² – 30x – 25x + 750 = x(x–30) – 25(x–30) = (x–25)(x–30) = 0। x = 25 या x = 30। जाँच: 25(55–25) = 25×30 = 750 ✓ और 30(55–30) = 30×25 = 750 ✓। दोनों हल व्यावहारिक हैं।"
+    }
+    ]
